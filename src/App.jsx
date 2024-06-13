@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
+
 import { Counter } from './components/Counter/Counter';
+import { Header } from './components/Header/Header';
+
+import './App.css';
 
 class App extends Component {
   constructor() {
@@ -10,7 +14,9 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <>
+        <Header></Header>
+
         <h1>Ciclo de Vida do React</h1>
 
         <button
@@ -21,10 +27,10 @@ class App extends Component {
           {this.state.showCounter ? 'Remover contador' : 'Mostrar contador'}
         </button>
 
-        {/* Se showCounter dor verdadeiro apresente Counter 
-            se não não apresente nada. */}
+        {/* Se showCounter dor verdadeiro apresente Counter
+                se não não apresente nada. */}
         {this.state.showCounter ? <Counter /> : null}
-      </div>
+      </>
     );
   }
 }
