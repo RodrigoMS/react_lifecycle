@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Título 1",
+    "provider": "NASA",
+    "description": "Lorem ipsum dolor sit TI consectetur adipisicing elit. Explicabo nequeam laborum consectetur in aliquam, vel beatae deserunt excepturi suscipit fuga eum.",
+    "thumbnail": "logo.svg"
+  },
+
+  {
+    "title": "Título 2",
+    "provider": "IBM",
+    "description": "Lorem ipsum dolor sit AVI consectetur adipisicing elit. Consectetur optio fuga possimus. Vel sequi laudantium necessitatibus neque alias optio similique!",
+    "thumbnail": "logo2.svg"
+  },
+
+  {
+    "title": "Título 3",
+    "provider": "Apple",
+    "description": "Lorem ipsum dolor sit ADS consectetur adipisicing elit. Explicabo nequeam laborum consectetur in aliquam, vel beatae deserunt excepturi suscipit fuga eum.",
+    "thumbnail": "logo3.svg"
+  },
+
+  {
+    "title": "Título 4",
+    "provider": "IA",
+    "description": "Lorem ipsum dolor sit RMS consectetur adipisicing elit. Explicabo nequeam laborum consectetur in aliquam, vel beatae deserunt excepturi suscipit fuga eum.",
+    "thumbnail": "logo4.svg"
+  }
+]

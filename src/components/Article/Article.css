@@ -1,0 +1,53 @@
+.article {
+  display: flex;
+  gap: 2rem;
+
+  /* Animation */
+  animation-delay: 0.2s;
+}
+
+/* Animation */
+.article,
+.article .article-img,
+.article .article-infos h2,
+.article .article-infos h3,
+.article .article-infos p {
+  animation: appear 1s backwards; 
+}
+
+.article .article-img {
+  width: 140px;
+
+  /* Animation */
+  animation-delay: 0.4s;
+}
+
+.article .article-infos h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+
+  /* Animation */
+  animation-delay: 1.0s;
+}
+
+.article .article-infos h3 {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #8695a4;
+  margin-bottom: 1rem;
+
+  /* Animation */
+  animation-delay: 1.6s;
+}
+
+.article .article-infos p {
+  /* Animation */
+  animation-delay: 2.0s;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+}

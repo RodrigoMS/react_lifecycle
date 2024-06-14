@@ -20,10 +20,12 @@ body {
   font-size: 1.6rem;
 }
 
-h1 {
-  font-size: 4rem;
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  margin: 1rem;
+section#articles {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+
+  max-width: 1240px;
+  padding: 0 2rem;
+  margin: 4rem auto;
 }

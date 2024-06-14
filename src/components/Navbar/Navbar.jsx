@@ -3,12 +3,6 @@ import React from 'react';
 import './Navbar.css';
 
 export class Navbar extends React.Component {
-  /*constructor() {
-    super();
-
-    this.state = { contador: 0 };
-  }*/
-
   render() {
     return (
       <nav>

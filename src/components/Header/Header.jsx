@@ -2,19 +2,17 @@ import React from 'react';
 import { Navbar } from '../Navbar/Navbar';
 
 import './Header.css';
-import logo from '../../assets/img/logo.svg';
+import logo from '../../assets/images/logo.svg';
 
 export class Header extends React.Component {
-  /*constructor() {
-    super();
-
-    this.state = { contador: 0 };
-  }*/
-
   render() {
     return (
       <header>
-        <img className="logo" src={logo} alt="Logo do React" />
+        <div className="container-logo">
+          <img className="logo" src={logo} alt="Logo do React" />
+          <h1>Ciclo de Vida do React</h1>
+        </div>
+
         <Navbar></Navbar>
       </header>
     );
