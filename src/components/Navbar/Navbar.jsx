@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import './Navbar.css';
 
@@ -8,7 +9,7 @@ export class Navbar extends React.Component {
       <nav>
         <ul>
           <li>
-            <a href="/">Início</a>
+            <Link to="/">Início</Link>
           </li>
           <li>
             <a href="/">Aulas</a>
@@ -20,7 +21,7 @@ export class Navbar extends React.Component {
             <a href="/">Links</a>
           </li>
           <li>
-            <a href="/">Sobre Mim</a>
+            <Link to="/auth">Login</Link>
           </li>
         </ul>
       </nav>

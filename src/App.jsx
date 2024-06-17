@@ -16,7 +16,7 @@ function importAll(r) {
   let images = {};
   r.keys().map((item, index) => {
     images[item.replace('./', '')] = r(item);
-    return item; // Adicione uma declaração de retorno
+    return item;
   });
   return images;
 }
@@ -40,7 +40,7 @@ class App extends Component {
               provider={article.provider}
               description={article.description}
               thumbnail={images[article.thumbnail]}
-              delay={index * 500}
+              //delay={index * 500}
             />
           ))}
         </section>
@@ -53,7 +53,7 @@ class App extends Component {
           {this.state.showCounter ? 'Remover contador' : 'Mostrar contador'}
         </button>
 
-        {/* Se showCounter dor verdadeiro apresente Counter
+        {/* Se showCounter for verdadeiro apresente Counter
                 se não não apresente nada. */}
         {this.state.showCounter ? <Counter /> : null}
       </>

@@ -3,17 +3,6 @@ import React from 'react';
 import './Article.css';
 
 export class Article extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { isRendered: false };
-  }
-
-  componentDidMount() {
-    this.timer = setTimeout(() => {
-      this.setState({ isRendered: true });
-    }, this.props.delay);
-  }
-
   render() {
     return (
       <article className="article">
@@ -26,9 +15,5 @@ export class Article extends React.Component {
         </div>
       </article>
     );
-  }
-
-  componentWillUnmount() {
-    clearTimeout(this.timer);
   }
 }
