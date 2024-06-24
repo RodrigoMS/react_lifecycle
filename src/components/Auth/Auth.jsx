@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import logo from '../../assets/images/logo.svg';
 
@@ -25,7 +26,7 @@ export class Auth extends React.Component {
           </h2>
 
           <div class="actions">
-            <a href="/">Cadastrar</a>
+            <Link to="/auth-form">Cadastrar</Link>
             <a href="/">Portfólio de projetos</a>
           </div>
 

@@ -6,10 +6,12 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
 import App from './App';
 import { Auth } from './components/Auth/Auth';
+import { AuthForm } from './components/Auth_form/Auth-form';
 
 const router = createBrowserRouter([
   { path: '/', element: <App /> },
   { path: '/auth', element: <Auth /> },
+  { path: '/auth-form', element: <AuthForm /> },
   //{ path: '*', element: <NotFound /> }
 ]);
 
